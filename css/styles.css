@@ -1,0 +1,173 @@
+body{
+    background-image: url(img-com_Saludable\fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    }
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-decoration: none ;
+  text-align: center;
+}
+
+.titulo {
+  padding: 40px;
+}
+
+nav ul {
+   display: inline-block;
+   width: 80%;
+   margin: auto; 
+   border-radius: 10px;
+   list-style-type: none;
+   background-color: #cbc74bb1;
+}
+
+nav li {
+font-family: "Roboto", sans-serif;
+display: inline-flex;
+}
+
+nav a {
+    padding: 15px;
+    width: 100 px;
+}
+
+nav ul a:hover{
+    background-color: white;
+}
+
+.contenido {
+    display: flex;
+    width: 80%; 
+    margin: auto;
+    margin-top: 50px; 
+}
+
+.contenido .articulo{
+    width:  70%;
+    margin: auto;
+}
+
+.contenido .articulo div {
+    width: 90%; ;
+    padding: 15px;
+    background-color: #69b569;
+    border: radius 15px;
+    margin-bottom: 15px;
+}
+.contenido .secundario{
+    width: 30% ;
+}
+.contenido .secundario{
+    background-color: #a476ba;
+    border-radius: 15px;
+    padding: 20px;
+    height: 600px;
+}
+.piedepagina{
+    background-color: #0476b0;
+    margin-top: 100px;
+}
+
+.piedepagina p {
+    
+    margin-top: 100px;
+}
+
+.contenido {
+    display:flex;
+    width: 8px; ;
+    margin: auto;
+    margin-top:50px
+
+}
+img {
+    width: 400px;
+    height: 300px;
+    border-left: 20%;
+    object-fit:initial ; 
+}
+.contenido{
+    display: flex;
+    margin: 70px;
+    text-align: left;
+
+}
+.articulo {
+    width: 80%;
+    border-right: 3px solid bisque;
+    
+}
+.articulo div{
+    font:100;
+}
+h1{
+ text-align: center;
+ background-color: black;
+ color: white;
+ padding: 15px;
+ display:inline-table;
+
+}
+ /* imagenes y texto */
+.Contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Articulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Articulo img {
+    transition: transform 0.8s ease-in-out;
+}
+
+.Articulo img:hover {
+    transform: scale(1.2);
+}
+
+.Articulo p {
+    width: 100%;
+    overflow: hidden;
+    white-space:unset;
+    text-overflow: ellipsis;
+    transition: width 0.8s ease-in-out;
+}
+
+.Articulo p:hover {
+    width: 50;
+    white-space:initial;
+}
+
+
+iframe {
+    width: 40%;
+    overflow:auto;
+    white-space:unset;
+    align-items: center;
+   
+    transition: width 0.8s ease-in-out;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table img {
+    width: 140%; /* Asegura que las imágenes se ajusten al ancho de las celdas */
+    max-width: 140px; /* Limita el tamaño máximo de las imágenes a 100px (ajusta según sea necesario) */
+    height: auto;
+}
